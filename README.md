@@ -39,7 +39,7 @@ Go to Azure and create a virtual machine configured with Windows 10. Make sure t
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/bd1733e5-3f88-43dd-83b0-7538666c3a27" height="80%" width="80%" alt="Remote Connect"/>
 </p>
 <p>
 Next, Log in to the VM via remote desktop and install the following files in the Virtual Machine: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD 
