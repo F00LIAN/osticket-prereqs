@@ -47,7 +47,7 @@ Next, Log in to the VM via remote desktop and install the following files in the
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/d0e62a39-d6bc-4b69-8b46-4868512160c3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f8890b7f-f5d7-4fc8-84bd-9e7f2cd574c3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Enable **IIS services for CGI** on the Virtual Machine. This will allow the virtual machine to act as a server on the loopback address of 127.0.0.1, giving us the ability to self host the OS-Ticket application. Go to the Control Panel ---> Programs ---> Turn Windows Features On or Off ---> World Wide Web Services ---> Application Development Features ---> CGI (ENABLE THIS)
