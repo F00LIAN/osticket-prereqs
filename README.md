@@ -54,7 +54,7 @@ Download and extract the osTicket Installation Files
 
 ### 3. Enable IIS and CGI Features
 <p>
-<img src="https://github.com/user-attachments/assets/f8890b7f-f5d7-4fc8-84bd-9e7f2cd574c3" height="80%" width="80%" alt="Enable IIS and CGI"/>
+<img src="https://github.com/user-attachments/assets/f8890b7f-f5d7-4fc8-84bd-9e7f2cd574c3" height="90%" width="90%" alt="Enable IIS and CGI"/>
 </p>
 <p>
 Open the Control Panel → Programs → Turn Windows Features On or Off.
@@ -66,7 +66,7 @@ Restart the machine if prompted.
 
 ### 4. Install Prerequisite Programs
 <p>
-<img src="https://github.com/user-attachments/assets/c5f6d44b-c41b-433b-9b5c-a3ef4554c41d" height="50%" width="50%" alt="Install Programs"/>
+<img src="https://github.com/user-attachments/assets/c5f6d44b-c41b-433b-9b5c-a3ef4554c41d" height="90%" width="90%" alt="Install Programs"/>
 </p>
 <p>
 Install PHP Manager for IIS.
