@@ -66,7 +66,7 @@ Restart the machine if prompted.
 
 ### 4. Install Prerequisite Programs
 <p>
-<img src="https://github.com/user-attachments/assets/4b868305-1330-46bc-96a9-53455c86aa05" height="50%" width="50%" alt="Install Programs"/>
+<img src="https://github.com/user-attachments/assets/c5f6d44b-c41b-433b-9b5c-a3ef4554c41d" height="50%" width="50%" alt="Install Programs"/>
 </p>
 <p>
 Install PHP Manager for IIS.
