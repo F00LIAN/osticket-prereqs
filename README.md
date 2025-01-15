@@ -37,7 +37,9 @@ Before you begin, ensure you have:
 </p>
 <p>
 Create a Windows 10 virtual machine in Microsoft Azure.
+  
 Use a dedicated resource group for organizational purposes.
+
 Ensure no additional virtual networks are specified unless needed. 
 </p>
 <br />
@@ -48,6 +50,7 @@ Ensure no additional virtual networks are specified unless needed.
 </p>
 <p>
 Log into the VM using Remote Desktop.
+  
 Download and extract the osTicket Installation Files
 </p>
 <br />
@@ -58,8 +61,11 @@ Download and extract the osTicket Installation Files
 </p>
 <p>
 Open the Control Panel → Programs → Turn Windows Features On or Off.
+  
 Expand World Wide Web Services → Application Development Features.
+
 Enable CGI.
+
 Restart the machine if prompted.
 </p>
 <br />
@@ -70,9 +76,13 @@ Restart the machine if prompted.
 </p>
 <p>
 Install PHP Manager for IIS.
+  
 Install Rewrite Module.
-Extract and move the php-7.3.8-nts-Win32-VC15-x86.zip file to C:\PHP.
+
+Extract and move the "php-7.3.8-nts-Win32-VC15-x86.zip" file to C:\PHP.
+
 Install VC_redist.x86.exe.
+
 Install MySQL 5.5.62.
 </p>
 <br />
@@ -83,7 +93,9 @@ Install MySQL 5.5.62.
 </p>
 <p>
 Run the MySQL installer and follow the default setup process.
+  
 Launch the Configuration Wizard and select Standard Configuration.
+
 Create a root username and password (both set to "root" for this setup).
 </p>
 <br />
@@ -94,7 +106,9 @@ Create a root username and password (both set to "root" for this setup).
 </p>
 <p>
 Open IIS Manager → PHP Manager.
+  
 Click Register new PHP version and navigate to C:\PHP\php-cgi.exe.
+
 Restart IIS using the left-side menu in IIS Manager.
 </p>
 <br />
@@ -105,7 +119,9 @@ Restart IIS using the left-side menu in IIS Manager.
 </p>
 <p>
 Extract osTicket-v1.15.8.zip and copy the upload folder to C:\inetpub\wwwroot.
+  
 Rename the upload folder to osTicket.
+
 Restart IIS.
 </p>
 <br />
@@ -116,6 +132,7 @@ Restart IIS.
 </p>
 <p>
 In IIS Manager, navigate to Sites → Default Web Site → osTicket.
+  
 Click *Browse :80 (http) to verify the installation.
 </p>
 <br />
@@ -125,11 +142,16 @@ Click *Browse :80 (http) to verify the installation.
 </p>
 <p>
 In IIS Manager, navigate to Sites → Default Web Site → osTicket.
+  
 Click on PHP Manager ---> PHP Extensions (Enable and Disable Extensions). 
+
 Enable PHP extensions:
-php_imap.dll
-php_intl.dll
-php_opcache.dll
+
+- php_imap.dll
+  
+- php_intl.dll
+  
+- php_opcache.dll
 </p>
 <br />
 
@@ -139,7 +161,8 @@ php_opcache.dll
 </p>
 <p>
 Go to C:\inetpub\wwwroot\osTicket\include.
-Rename ost-sampleconfig.php to ost-config.php.
+  
+Rename "ost-sampleconfig.php" to "ost-config.php".
 </p>
 <br />
 
@@ -148,6 +171,7 @@ Rename ost-sampleconfig.php to ost-config.php.
 </p>
 <p>
 Right-click ost-config.php → Properties → Security → Advanced.
+  
 Disable inheritance and grant Full Control to Everyone.
 </p>
 <br />
@@ -159,7 +183,9 @@ Disable inheritance and grant Full Control to Everyone.
 </p>
 <p>
 Install HeidiSQL from the "osTicket-Installation-Files" folder. 
+  
 Create a new session using the MySQL root username and password. 
+
 Connect to the IIS session and create a database named osTicket.
 </p>
 <br />
@@ -169,7 +195,9 @@ Connect to the IIS session and create a database named osTicket.
 </p>
 <p>
 Return to the osTicket installer in your browser.
+  
 Enter the required details (Helpdesk Name, Default Email, Admin Username, Password, and osTicket database settings).
+
 Click Install Now to complete the setup.
 </p>
 <br />
@@ -181,6 +209,7 @@ Click Install Now to complete the setup.
 </p>
 <p>
 Upon successful installation, access the admin panel and user portal links provided.
+  
 Test the setup to ensure all features are functional.
 </p>
 <br />
